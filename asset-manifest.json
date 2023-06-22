@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/roca-invest/static/css/main.80b0592b.css",
+    "main.js": "/roca-invest/static/js/main.5a082ead.js",
+    "static/js/787.adc4b379.chunk.js": "/roca-invest/static/js/787.adc4b379.chunk.js",
+    "static/media/roca.png": "/roca-invest/static/media/roca.3d5e8535e92ecb2324b0.png",
+    "static/media/coolvetica-rg.otf": "/roca-invest/static/media/coolvetica-rg.3d81d0e1fdbd5f69b232.otf",
+    "index.html": "/roca-invest/index.html",
+    "main.80b0592b.css.map": "/roca-invest/static/css/main.80b0592b.css.map",
+    "main.5a082ead.js.map": "/roca-invest/static/js/main.5a082ead.js.map",
+    "787.adc4b379.chunk.js.map": "/roca-invest/static/js/787.adc4b379.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80b0592b.css",
+    "static/js/main.5a082ead.js"
+  ]
+}
