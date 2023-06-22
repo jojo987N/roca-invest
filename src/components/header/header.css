@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+    /* border: 1px solid green; */
+    background: url(../../img/roca.png), #1A242A;
+    background-repeat: no-repeat;
+    background-position: 101% 101%;
+    position: relative;
+    height: 550px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    gap: 10%;
+}
+.block-1 {
+    /* padding: 100px; */
+    /* border: 1px solid black; */
+    /* background: url(../logo.svg); */
+    /* clip-path:  polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+    /* clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%); */
+    padding: 30px;
+    clip-path: polygon(0 0, 53% 0, 87% 100%, 0% 100%);
+    background: #191E26;
+    width: 40%;
+    height: 490px;
+    border-top-left-radius: 12px;
+}
+.block-2 {
+    padding: 30px;
+    background: green;
+    /* clip-path: polygon(0 0, 53% 0, 60% 100%, 0% 100%); */
+    width: 53.5%;
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url("../../fonts/coolvetica-rg.otf");
+    /* font-weight: bold; */
+   }
+
+   .coolvetica{
+    font-family: coolvetica;
+    /* font-size: 45px; */
+    /* font-weight: 500; */
+   }
+   .logo{
+    color: #82725C;
+    padding: 30px;
+    font-size: 30px;
+   }
+   .logo-1{
+    color: white;
+   }
+   .brand{
+    position: absolute;
+    top: 29%;
+    /* border: 1px solid red; */
+    left: 18%
+
+   }
+   .brand h1{
+    font-size: 65px;
+    width: 70%;
+    /* border: 1px solid red; */
+    word-wrap: break-word;
+    color: white;
+    margin: 0;
+   }
+   .brand ul{
+    margin: 0;
+    /* border: 1px solid black; */
+    padding: 5px 18px;
+    color: white;
+   }
+   .brand ul li span{
+    color: #82725C;
+   }
+   .brand p{
+    width: 43%;
+    /* border: 1px solid yellow; */
+    color: white;
+    font-size: 10px;
+    opacity: 0.7;
+    margin: 0;
+    margin-bottom: 4px;
+    
+   }
+   .brand p:nth-of-type(1){
+    margin-top: 10%;
+   }
+   .fa-search{
+    background: #27333C;
+    padding: 5px;
+    color: white;
+   }
+   .menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 20px;
+    gap: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.9;
+    margin: 0;
+    margin-top: 30px;
+   }
+   .menu li {
+    cursor: pointer;
+   }
+   .fa-arrow-right{
+    color: #82725C;
+    margin-left: 10px;
+   }
+   .button{
+    background: linear-gradient(#27333C 100%, transparent 40%) no-repeat;
+    border: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    padding: 7px 10px;
+    background-size: 33%;
+    margin-top: 3%;
+    border-radius: 2px;
+    cursor: pointer;
+   }
+   .container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .button1{
+     /* width: 80%; */
+     margin-bottom: 4%;
+     color: white;
+     background: transparent;
+     border: none;
+     font-weight: 600;
+     cursor: pointer
+   }
+   .message{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+   }
+   
+
+   
